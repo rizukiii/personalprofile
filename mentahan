@@ -1,0 +1,34 @@
+<?php
+                            $query = mysqli_query($connect, "SELECT COUNT(*) as total FROM about");
+                            $result = mysqli_fetch_array($query);
+                            if ($result['total'] < 1) {
+                                echo '<a href="create.php" class="btn btn-primary">Tambah Data +</a>';
+                            } ?>
+                            $namatempat      = escapeString($_POST['namatempat']);
+    $waktu = escapeString($_POST['waktu']);
+    $tempat = escapeString($_POST['tempat']);
+    $deskripsi = escapeString($_POST['deskripsi']);
+
+
+
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        
+        <div class="text-container">
+          <?php include "../app.php" ?>
+          <?php include "../../backend/actions/about/show.php" ?>
+          <h1 class="h1-large"><?= $about->deskripsi ?></h1>
+          <a class="btn-solid-lg page-scroll" href="#about">Lebih lanjut</a>
+          <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Saya</a>
+        </div> <!-- end of text-container -->
+      </div> <!-- end of col -->
+    </div> <!-- end of row -->
+  </div> <!-- end of container -->
+
+
+  Muhammad Rizqy Hidayat
+  Nama	:	Muhammad Rizqy Hidayat
+Pekerjaan	:	Dan saya suka membuat situs web yang indah dan efisien untuk hobi saya. Saya senang menjalani seluruh proses dengan pelanggan mulai dari konsep, desain, lalu pengembangan saya
+Deskripsi	:	Mengoding adalah kegemaran ku untuk memulai berkarir di bidang IT.
+Sapaan	:	Halo semua, Saya rizqy
