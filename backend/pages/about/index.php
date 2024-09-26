@@ -1,11 +1,6 @@
-<?php $title = 'About' ;
-include "../../app.php";
-$query = "SELECT COUNT(*) as total FROM `tb_about`";
-$result = $connect->query($query);
-$row = $result->fetch_object();
-?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'About' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 

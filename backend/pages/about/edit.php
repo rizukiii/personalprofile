@@ -1,7 +1,7 @@
-<?php $title = 'Edit Data About' ?>
+
 
 <?php include "../../components/head.php" ?>
-
+<?php $title = 'Edit Data About' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -32,7 +32,7 @@
                     <!-- title -->
 
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php";
+                        <?php
                         include "../../actions/about/show.php" ?>
                         <form action="../../actions/about/update.php" method="post" enctype="multipart/form-data">
                             <div class="mb-3">

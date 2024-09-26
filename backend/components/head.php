@@ -1,4 +1,4 @@
-<?php include "../app.php";
+<?php include "../../app.php";
 session_start();
 
 if (!isset($_SESSION['email'])) {

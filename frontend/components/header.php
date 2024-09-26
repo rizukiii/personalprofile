@@ -6,7 +6,7 @@
 
         <div class="text-container">
           <?php include "../app.php" ?>
-          <?php include "../../backend/actions/about/" ?>
+          <?php include "../../backend/actions/about/show.php" ?>
           <h1 class="h1-large"><?= $about->deskripsi ?></h1>
           <a class="btn-solid-lg page-scroll" href="#about">Lebih lanjut</a>
           <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Saya</a>
