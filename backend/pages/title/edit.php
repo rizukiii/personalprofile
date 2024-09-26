@@ -1,7 +1,7 @@
-<?php $title = 'Edit Data Title' ?>
 
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Edit Data Title' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -32,7 +32,7 @@
                     <!-- title -->
 
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php";
+                        <?php 
                         $query = "SELECT * FROM `tb_title`";
 
                         $result = $connect->query($query);

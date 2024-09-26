@@ -1,6 +1,6 @@
-<?php $title = 'Edit Data Testimonial' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Edit Data Testimonial' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -30,7 +30,7 @@
                     </div>
                     <!-- title -->
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php";
+                        <?php 
 
                         $id = $_GET['id'];
                         $getData = mysqli_query($connect, "SELECT * FROM tb_testimonial WHERE id ='$id'");

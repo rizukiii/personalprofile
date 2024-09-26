@@ -1,6 +1,6 @@
-<?php $title = 'Title' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Title' ?>
 
 
 <body>
@@ -26,7 +26,7 @@
                             <h5 class="card-subtitle"></h5>
                         </div>
                         <div class="ms-auto">
-                        <?php include "../../app.php";
+                        <?php 
                             
                             $query = "SELECT * FROM `tb_title`";
                             

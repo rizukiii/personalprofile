@@ -1,7 +1,7 @@
-<?php $title = 'Create Data Testimonial' ?>
 
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Create Data Testimonial' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -31,7 +31,7 @@
                     </div>
                     <!-- title -->
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php" ?>
+                  
                         <form action="../../actions/testimonial/store.php" method="post" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="nama" class="form-label">Nama</label>
