@@ -1,13 +1,8 @@
 <?php
 
-if (!isset($_GET['id'])) {
-    echo "<script>window.location.href='../../pages/about/index.php'</script>";
-    exit();
-}
 
-$id = $_GET['id'];
 
-$query = "SELECT * FROM `tb_about` WHERE id=$id";
+$query = "SELECT * FROM `tb_about`";
 
 $result = $connect->query($query);
 

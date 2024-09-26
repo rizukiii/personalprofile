@@ -13,7 +13,7 @@
             <div class="col-lg-4 ">
                 <h4 style="margin-left: 1.2rem;">Education</h4>
                 <ul class="timeline-3">
-                    <?php include  "../../config/connection.php";
+                    <?php
                     $sql = mysqli_query($connect, "SELECT * FROM `tb_education`");
                     while ($row = $sql->fetch_object()): ?>
                         <li>

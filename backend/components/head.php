@@ -1,9 +1,5 @@
 <?php include "../../app.php";
-session_start();
 
-if (!isset($_SESSION['email'])) {
-    header('location: ../account/login.php');
-}
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">

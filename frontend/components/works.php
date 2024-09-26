@@ -2,7 +2,7 @@
 <div class="basic-4">
     <div class="container">
         <div class="row">
-        <?php include  "../../config/connection.php";
+        <?php 
                     $sql = mysqli_query($connect, "SELECT * FROM `tb_project` ORDER BY id DESC LIMIT 3");
                     while ($row = $sql->fetch_object()): ?>
              

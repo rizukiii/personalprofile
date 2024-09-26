@@ -13,7 +13,7 @@ $title = $item->fetch_object();
             </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
-            <?php include  "../../config/connection.php";
+            <?php 
             
             while ($row = $sql->fetch_object()): ?>
                 <div class="col-4">

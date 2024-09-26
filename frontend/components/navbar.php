@@ -1,5 +1,5 @@
 <?php 
-include  "../../config/connection.php";
+
 $sql = mysqli_query($connect, "SELECT * FROM `tb_sosmed` LIMIT 2");
 $p = mysqli_query($connect, "SELECT * FROM `tb_about` ");
 $about = $p->fetch_object();

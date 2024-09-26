@@ -15,9 +15,6 @@
     <?php include "../components/services.php" ?>
 
 
-    <?php include "../components/detail.php" ?>
-
-
     <?php include "../components/project.php" ?>
 
 
@@ -28,9 +25,6 @@
 
 
     <?php include "../components/sectiondivider.php" ?>
-
-
-    <?php include "../components/question.php" ?>
 
 
     <?php include "../components/contact.php" ?>

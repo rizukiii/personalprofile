@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="social-container">
-                    <?php include  "../../config/connection.php";
+                    <?php 
                     $sql = mysqli_query($connect, "SELECT * FROM `tb_sosmed`");
                     while ($row = $sql->fetch_object()): ?>
                         <span class="fa-stack">

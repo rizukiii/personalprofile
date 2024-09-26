@@ -1,6 +1,7 @@
 
 <?php include "../../components/head.php" ?>
 <?php $title = 'About' ?>
+
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -24,13 +25,6 @@
                             <h5 class="card-subtitle"></h5>
                         </div>
                         <div class="ms-auto">
-                            <?php
-                            if ($row->total > 0) {
-                                
-                                echo '<a href="edit.php" class="btn btn-primary">Edit Data</a>';
-                            } else {
-                                echo '<a href="create.php" class="btn btn-primary">Tambah Data</a>';
-                            } ?>
 
                         </div>
                     </div>
@@ -39,8 +33,7 @@
                         <table class="table mb-0 table-hover align-middle text-nowrap">
 
                             <tbody>
-                                <?php
-                                include "../../actions/about/show.php" ?>
+                            <?php include "../../actions/about/show.php" ?>
                                     <tr>
                                         <th>Foto</th>
                                         <th>:</th>
