@@ -47,8 +47,8 @@
                                 while($item = $result->fetch_object()): ?>
                                 <tr>
                                     <td><?= $no++ ?></td>
-                                    <td><?= substr($item->icon ,0 , 20) ?></td>
-                                    <td><?= substr($item->link ,0 , 20) ?></td>
+                                    <td><i class="<?= $item->icon ?>" ></i></td>
+                                    <td><?= $item->link ?></td>
                                     <td style="width: 5%;"><a href="detail.php?id=<?= $item->id ?>" class="btn btn-info mdi mdi-information-variant text-light"></a></td>
                                     <td style="width: 5%;"><a
                                             href="edit.php?id=<?= $item->id ?>" class="btn btn-warning mdi mdi-pen"></a></td>
