@@ -1,6 +1,6 @@
-<?php $title = 'Dashboard' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Dashboard' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 

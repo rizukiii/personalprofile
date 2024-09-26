@@ -1,6 +1,6 @@
-<?php $title = 'Detail Data Contact' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Detail Data Contact' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -34,7 +34,6 @@
 
                             <tbody>
                                 <?php 
-                                include "../../app.php";
                                 include "../../actions/contact/show.php" ?>
                                 <tr>
                                     <th style="width: 100px;">Nama</th>

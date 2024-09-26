@@ -1,6 +1,6 @@
-<?php $title = 'Detail Data Experience' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Detail Data Experience' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -33,7 +33,7 @@
                         <table class="table mb-0 table-hover align-middle text-nowrap">
 
                             <tbody>
-                                <?php include "../../app.php";
+                                <?php
                                 include "../../actions/experience/show.php" ?>
                                 <tr>
                                     <th style="width: 100px;">Nama Instansi</th>

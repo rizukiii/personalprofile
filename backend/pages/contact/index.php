@@ -1,6 +1,6 @@
-<?php $title = 'Contact' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Contact' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -30,7 +30,6 @@
                         <table class="table mb-0 table-hover align-middle text-nowrap">
                             <thead>
                                 <?php
-                                include "../../app.php";
                                 include "../../actions/contact/showAll.php";
                                 ?>
                                 <tr>
