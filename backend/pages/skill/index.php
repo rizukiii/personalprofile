@@ -1,6 +1,6 @@
-<?php $title = 'Skill' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Skill' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -44,7 +44,7 @@
                             <tbody>
 
                                 <?php
-                                include "../../app.php";
+                               
                                 include "../../actions/skill/showAll.php";
                                 $no = 1;
                                 while ($item = $result->fetch_object()): ?>

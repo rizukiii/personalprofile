@@ -1,7 +1,7 @@
-<?php $title = 'Create Data Sosmed' ?>
-<?php include "../../app.php" ?>
+
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Create Data Sosmed' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 

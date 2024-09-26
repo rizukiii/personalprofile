@@ -1,6 +1,6 @@
-<?php $title = 'Project' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Project' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -42,7 +42,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php include "../../app.php" ?>
+
                                 <?php include "../../actions/project/showAll.php";
                                 $no = 1;
                                 while($item = $result->fetch_object()): ?>

@@ -1,6 +1,6 @@
-<?php $title = 'Edit Data Project' ?>
 <?php include "../../components/head.php" ?>
 
+<?php $title = 'Edit Data Project' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -30,7 +30,7 @@
                     </div>
                     <!-- title -->
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php" ?>
+    
                         <?php include "../../actions/project/show.php" ?>
                         <form action="../../actions/project/update.php?id=<?= $project->id ?>" method="post" enctype="multipart/form-data">
                             <div class="mb-3">
