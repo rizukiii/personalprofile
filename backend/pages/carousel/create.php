@@ -1,7 +1,7 @@
-<?php $title = 'Create Data Carousel' ?>
+
 
 <?php include "../../components/head.php" ?>
-
+<?php $title = 'Create Data Carousel' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -31,7 +31,6 @@
                     </div>
                     <!-- title -->
                     <div class="table-responsive mt-3">
-                        <?php include "../../app.php" ?>
                         <form action="../../actions/carousel/store.php" method="post" enctype="multipart/form-data">
                             
                             <div class="mb-3">

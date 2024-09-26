@@ -1,6 +1,6 @@
-<?php $title = 'Carousel' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Carousel' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -40,7 +40,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php include "../../app.php" ?>
+                    
                                 <?php include "../../actions/carousel/showAll.php";
                                 $no = 1;
                                 while ($item = $result->fetch_object()): ?>

@@ -1,6 +1,6 @@
-<?php $title = 'Detail Data Carousel' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Detail Data Carousel' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -33,7 +33,7 @@
                         <table class="table mb-0 table-hover align-middle text-nowrap">
 
                             <tbody>
-                            <?php include "../../app.php" ?>
+                            
                             <?php include "../../actions/carousel/show.php" ?>
                                 
                                 <tr>

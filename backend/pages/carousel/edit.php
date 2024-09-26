@@ -1,6 +1,6 @@
-<?php $title = 'Edit Data Carousel' ?>
-<?php include "../../components/head.php" ?>
 
+<?php include "../../components/head.php" ?>
+<?php $title = 'Edit Data Carousel' ?>
 <body>
     <?php include "../../components/preloader.php" ?>
 
@@ -30,7 +30,7 @@
                     </div>
                     <!-- title -->
                     <div class="table-responsive mt-3">
-                    <?php include "../../app.php";
+                    <?php
                         
                         $id = $_GET['id'];
                         $getData = mysqli_query($connect, "SELECT * FROM tb_skill WHERE id ='$id'");
